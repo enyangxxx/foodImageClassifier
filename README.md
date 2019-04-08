@@ -7,10 +7,12 @@ git clone https://github.com/enyangxxx/foodImageClassfier.git
 ```
 
 ### Download dataset
-You can download the dataset here:
+1. You can download the dataset Food-5K here by using e.g. Cyberduck to access via FTP:
 https://mmspg.epfl.ch/downloads/food-image-datasets/
 
-Create a folder 'images' in project root folder with sub-folders each for 'training', 'evaluation', 'validation'.
+2. Create a folder 'images' in project root folder:
 ```
 cd foodImageClassfier && mkdir images
 ```
+
+3. Copy the sub-folders 'training', 'evaluation', 'validation' into the 'images' folder
