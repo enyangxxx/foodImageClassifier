@@ -7,26 +7,19 @@ Created on Sun Apr  7 21:47:38 2019
 """
 
 import Pre_Processing as pp
-import Log_Reg_Model as lrm
-import Log_Reg_Funcs as lrf
-import numpy as np
-import matplotlib.pyplot as plt
+import ANN_Model as annm
+import ANN_Functions as annf
 
-np_training_set_x, np_training_set_y = pp.load_dataset('training','jpg',100)
-np_validation_set_x, np_validation_set_y = pp.load_dataset('validation','jpg',100)
-np_training_set_x = lrf.standardize(np_training_set_x)
-np_validation_set_x = lrf.standardize(np_validation_set_x)
+side_length = 100
+np_training_set_x, np_training_set_y = pp.load_dataset('training','jpg',side_length)
+np_validation_set_x, np_validation_set_y = pp.load_dataset('validation','jpg',side_length)
+np_training_set_x = annf.standardize(np_training_set_x)
+np_validation_set_x = annf.standardize(np_validation_set_x)
 
-d = lrm.model(np_training_set_x, np_training_set_y, np_validation_set_x, np_validation_set_y, 
-          num_iterations = 2000, learning_rate = 0.1, print_cost = True)
+parameters = annm.L_layer_model(np_training_set_x, np_training_set_y, 
+          num_iterations = 3000, learning_rate = 0.1, print_cost = True, 
+          layers_dims= [side_length*side_length*3, 100, 80, 60, 40, 20, 10, 1])
 
-costs = np.squeeze(d['costs'])
-plt.plot(costs)
-plt.ylabel('cost')
-plt.xlabel('iterations (per hundreds)')
-plt.title("Learning rate =" + str(d["learning_rate"]))
-plt.show()
 
-np_evaluation_set_x, np_evaluation_set_y = pp.load_dataset('evaluation','jpg',100)
-Y_prediction_eva = lrf.predict(d['w'],d['b'],np_evaluation_set_x)
-print("Evaluation accuracy: {} %".format(100 - np.mean(np.abs(Y_prediction_eva - np_evaluation_set_y)) * 100))
+#np_evaluation_set_x, np_evaluation_set_y = pp.load_dataset('evaluation','jpg',100)
+Y_prediction_eva = annf.predict(np_validation_set_x,np_validation_set_y, parameters)
