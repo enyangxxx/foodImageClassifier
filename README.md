@@ -1,5 +1,5 @@
 # foodImageClassfier
-Food or non-food? Image Recognition by Logistic Regression and Deep Learning
+Food or non-food? Image Classification with Artificial Neural Network
 
 ### Download project
 ```
