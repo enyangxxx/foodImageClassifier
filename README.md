@@ -3,7 +3,7 @@ Food or non-food? Image Classification with Artificial Neural Network
 
 ### Download project
 ```
-git clone https://github.com/enyangxxx/foodImageClassfier.git
+git clone https://github.com/enyangxxx/foodImageClassifier.git
 ```
 
 ### Download dataset
