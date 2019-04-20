@@ -29,11 +29,11 @@ Number of units = side_length*side_length*3, 100, 80, 60, 40, 20, 10, 1
 
 The cost reduction as graph:
 
-<img src="https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/cost%20graph.jpg" width="250" height="300">
+<img src="https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/cost%20graph.jpg" width="650" height="600">
 
 The cost after each 100th iteration:
 
-<img src="https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/costs.jpg" width="900" height="550">
+<img src="https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/costs.jpg" width="350" height="550">
 
 After the training, the accuracy of training, (cross-)validation and test dataset achieved these following values:
 
