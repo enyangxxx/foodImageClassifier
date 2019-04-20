@@ -29,7 +29,7 @@ Number of units = side_length*side_length*3, 100, 80, 60, 40, 20, 10, 1
 
 The cost reduction as graph:
 
-<img src="https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/cost%20graph.jpg" width="650" height="600">
+<img src="https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/cost%20graph.jpg" width="650" height="500">
 
 The cost after each 100th iteration:
 
