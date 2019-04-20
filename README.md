@@ -19,4 +19,27 @@ cd foodImageClassfier && mkdir images
 
 
 ### Current result
+I chose the following hyperparameters:
+
+Number of iterations = 3000
+Learning rate = 0.1
+Number of layers = 7
+Side length of an image = 100
+Number of units = side_length*side_length*3, 100, 80, 60, 40, 20, 10, 1
+
+The cost reduction as graph:
 ![Cost graph](https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/cost%20graph.jpg)
+
+The cost after each 100th iteration:
+![Costs](https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/costs.jpg)
+
+After the training, the accuracy of training, (cross-)validation and test dataset achieved these following values:
+
+#### Training accuracy
+![Training accuracy](https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/training%20accuracy.jpg)
+
+#### Cross-validation accuracy
+![Cross-validation accuracy](https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/cv%20accuracy.jpg)
+
+#### Test accuracy
+![Test accuracy](https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/test%20accuracy.jpg)
