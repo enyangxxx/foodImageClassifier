@@ -33,7 +33,7 @@ The cost reduction as graph:
 
 The cost after each 100th iteration:
 
-<img src="https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/costs.jpg" width="350" height="550">
+<img src="https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/costs.jpg" width="250" height="400">
 
 After the training, the accuracy of training, (cross-)validation and test dataset achieved these following values:
 
