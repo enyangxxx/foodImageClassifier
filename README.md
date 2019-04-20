@@ -16,3 +16,7 @@ cd foodImageClassfier && mkdir images
 ```
 
 3. Copy the sub-folders 'training', 'evaluation', 'validation' into the 'images' folder
+
+
+### Current result
+![OLS Regression](https://github.com/enyangxxx/coursera_gapminder_linearReg/blob/master/wikiFiles/week2/olsLinearRegSummary.png)
