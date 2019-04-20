@@ -19,4 +19,4 @@ cd foodImageClassfier && mkdir images
 
 
 ### Current result
-![OLS Regression](https://github.com/enyangxxx/coursera_gapminder_linearReg/blob/master/wikiFiles/week2/olsLinearRegSummary.png)
+![Cost graph](https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/cost%20graph.jpg)
