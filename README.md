@@ -25,7 +25,7 @@ I chose the following hyperparameters:
 - Learning rate = 0.1
 - Number of layers = 7
 - Side length of an image = 100
-- Number of units = side_length*side_length*3, 100, 80, 60, 40, 20, 10, 1
+- Number of units = side_length * side_length * 3, 100, 80, 60, 40, 20, 10, 1
 
 The cost reduction as graph:
 
