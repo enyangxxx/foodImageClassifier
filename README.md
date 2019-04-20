@@ -38,11 +38,10 @@ The cost after each 100th iteration:
 After the training, the accuracy of training, (cross-)validation and test dataset achieved these following values:
 
 #### Training accuracy
-![Training accuracy](https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/training%20accuracy.jpg)
 <img src="https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/training%20accuracy.jpg" width="450" height="60">
 
 #### Cross-validation accuracy
-![Cross-validation accuracy](https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/cv%20accuracy.jpg)
+<img src="https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/cv%20accuracy.jpg" width="450" height="60">
 
 #### Test accuracy
-![Test accuracy](https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/test%20accuracy.jpg)
+<img src="https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/test%20accuracy.jpg" width="450" height="60">
