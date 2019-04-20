@@ -39,6 +39,7 @@ After the training, the accuracy of training, (cross-)validation and test datase
 
 #### Training accuracy
 ![Training accuracy](https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/training%20accuracy.jpg)
+<img src="https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/training%20accuracy.jpg" width="250" height="100">
 
 #### Cross-validation accuracy
 ![Cross-validation accuracy](https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/cv%20accuracy.jpg)
