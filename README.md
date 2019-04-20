@@ -31,7 +31,7 @@ The cost reduction as graph:
 
 <img src="https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/cost%20graph.jpg" width="650" height="500">
 
-The cost after each 100th iteration:
+Considering the graph of cost reduction, the question I had was how the cost would be after 5000th, 10000th iteration & how it would look like with other values for the hyperparameters. These questions hopefully can be answered during/after the next Coursera course. But anyway, here are the costs after each 100th iteration:
 
 <img src="https://github.com/enyangxxx/foodImageClassifier/blob/master/gitImg/costs.jpg" width="250" height="400">
 
